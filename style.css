@@ -201,7 +201,6 @@ body{
     opacity: 1;
     visibility: visible;
     transition-delay: 0.1s;
-    
   }
   
 
@@ -214,8 +213,6 @@ body{
 
 .container nav {
     margin-left: -40px;
-    margin-bottom: -40px
-
 }
 
 .container nav ul {
@@ -238,7 +235,8 @@ body{
     text-decoration: none;
     color: rgb(161, 161, 161);
     display: block;
-    margin-top: 20px
+    margin-top: 25px;
+    margin-bottom: 10px
 
 }
 
@@ -253,10 +251,15 @@ section {
 
 h1{
     color: orangered;
-    margin-top: 60px;
+    margin-top: 25px;
     font-size: 25px;
-    margin-bottom: 15px;
-    
+}
+
+.mid p {
+    color: rgb(148, 145, 145);
+    font-size: 13px;
+    margin-right: 170px;
+    margin-top: -10px;
 }
 
 #one{
@@ -281,7 +284,7 @@ h1{
     
   }
  
-  .contact-fields input {
+.contact-fields input {
     width: 100%
 }
  
@@ -321,14 +324,8 @@ textarea{
 
 h2 {
     color: orangered;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
-}
-
-.mid p {
-    color: rgb(148, 145, 145);
-    font-size: 13px;
-    margin-right: 170px;
 }
 
 aside{
@@ -342,7 +339,9 @@ aside{
     display: grid;
     place-content: center;
     margin-right: 9.5rem;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 600;
+
 }
 
 #tops{
